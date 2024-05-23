@@ -15,7 +15,7 @@ st.code("""
 """)
 
 #图片语句
-#st.image("07709.png")
+#st.image("tt.png")
 
 st.write("""
 ### 导入组件包
@@ -478,8 +478,16 @@ def predict():
 """)
 
 st.write("""
+## 加载原始图像
+""")
+st.image("test.png")
+
+
+
+st.write("""
+
 ## 图像分割结果可视化
-加载原始图像
+
 """)
 
 st.code("""
